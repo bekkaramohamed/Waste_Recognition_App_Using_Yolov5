@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WR-HACK</title>
+    <style>
+
+      *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      body {
+        background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+      }
+
+      h1{
+       font-size:100px; 
+       color: linear-gradient(to bottom, #5e8d93, #a5ccdd) ;
+       background: linear-gradient(to right, rgb(45, 144, 153), rgb(143, 86, 197));
+       -webkit-background-clip: text;
+       background-clip: text;
+       -webkit-text-fill-color: transparent;
+       text-fill-color: transparent;
+       margin: 10px;
+      }
+
+      p{
+        margin-top: 0px;
+        font-weight: 400;
+      }
+
+      .container {
+        /* background: linear-gradient(to bottom, #ffffff, #e6e6e6); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+      }
+  
+      .form-control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+      }
+      
+      input[type="file"] {
+        padding: 10px;
+        border: none;
+        margin: 10px;
+        font-family: monospace;
+        font-weight: bolder;
+      }
+      
+      input[type="submit"] {
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: linear-gradient(to bottom, #5e8d93, #a5ccdd);
+        border: none;
+        margin: 10px;
+        color: white;
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: large;
+      }
+
+      .resume{
+        width:50%;
+        padding:2rem;
+        font-family:monospace;
+        font-size: larger;
+        text-align:center;
+        font-weight:bold;
+        border-style:double hidden double hidden;
+        border-color:#477c86;
+        border-width:4px;
+        margin: 40px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>WR-HACK</h1>
+      <p>HACKATHON 2023</p>
+      <p>ATILLA X CAPGEMINI</p>
+      <div class="resume">WR-HACK is an artificial intelligence capable of finding different garbage on an image or video stream. The tool could help with waste sorting.
+
+      </div>
+      <div class="form-control">
+        <form action="/run_command" method="post" enctype="multipart/form-data">
+          <input type="file" name="image">
+          <input type="submit" value="Submit">
+        </form>
+
+        <form action="/run_live" method="get">
+          <input type="submit" value="Exécuter en direct">
+        </form> 
+        <!-- <form action="/stop_live" method="get">
+          <input type="submit" value="Stopper le direct">
+        </form>    -->
+
+      </div>
+    </div>
+  </body>
+</html>

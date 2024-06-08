@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mini-Hack</title>
+	<link rel="stylesheet" href="../styles/style.css">
+  </head>
+  <body>
+	</div>
+	  <div class="topnav">
+		<h1 class="active">Mini-Hack</h1> 
+		<span id="subtitle">Outil intelligent de détection de déchet</span>
+		</div>
+    <div class="container">
+	<div class="resume">MiniHack est une intelligence artificielle capable de trouver différents déchets sur une image ou sur un flux vidéo. L’outil pourrait permettre d’assister le tri des déchets.</div>
+      <div class="form-control">
+        <form action="/run_command" method="post" enctype="multipart/form-data">
+          <input class="button" type="file" name="image">
+          <input class="button" type="submit" value="Submit">
+        </form>
+        <form action="/run_live" method="get">
+          <input class="button" type="submit" value="Exécuter en direct">
+        </form>
+        {% if image_src %}
+          <div class="image-preview">
+            <img src="{{ image_src }}" alt="Image preview">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>
