@@ -1,6 +1,6 @@
-🎯 INTRODUCTION: The goal of this project is to create an app that can detect different kinds of trash using deep learning methods, especially by fine-tuning the YOLOv5 model to our data.
+🎯 Introduction : The goal of this project is to create an app that can detect different kinds of trash using deep learning methods, especially by fine-tuning the YOLOv5 model to our data.
 
-📂 DATASET: The dataset used for training is a trash dataset labeled and provided by the company Neovision.
+📂 Dataset : The dataset used for training is a trash dataset labeled and provided by the company Neovision.
 
 💻 Installation :
 * Clone this repository by using git clone https://github.com/YOUR-USERNAME/https://github.com/bekkaramohamed/Waste_Recognition_Using_Yolov5
