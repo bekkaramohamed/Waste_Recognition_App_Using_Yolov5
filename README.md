@@ -9,6 +9,11 @@
 * Run python WebAPPCapgmini.py
 
 💡 App functionality :
-* You can choose to upload a file from the folder 'image_a_detectee', and you will get the output in the file 'image_detectee'
+* You can choose to upload a file from the folder 'image_a_detectee', and you will get the output in the file 'image_detectee' :
+  
+* ![Image_a_detectee](WebApp/images_a_detectee/image.jpg)
+* ![Image_a_detectee](WebApp/images_detectee/image.jpg)
+
+  
 * You can choose to run in live streaming with your webcam to detect real time waste
 
