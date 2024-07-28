@@ -9,7 +9,8 @@
 * Run python WebAPPCapgmini.py
 
 App Interface :
-![Interface](WebApp/images_a_detectee/image.jpg)
+
+* ![Interface](WebApp/WR-interface.png)
 
 💡 App functionality :
 
