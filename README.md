@@ -10,7 +10,7 @@
 
 App Interface :
 
-* ![Interface](WebApp/WR-interface.png)
+![Interface](WebApp/WR-interface.png)
 
 💡 App functionality :
 
